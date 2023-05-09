@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    line-height: 2em;
+  }
+
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #537D8F;
+}
+
+.navigation {
+  background: #3F606F;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+}
+ 
+  nav {
+
+    text-align: center;
+  }
+  a {
+    color: white;
+  }
+  nav a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  nav ul {
+    margin: 0;
+  }
+  nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px 0;
+  }
+  li a:hover {
+    background: white;
+    color:#3F606F;
+  }
+  header {
+    background-image: url(images/hero-image.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin: 2em;;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+ .card-photo {
+  flex: 1;
+  background-color:#537D8F;
+ }
+
+ .card-photo img {
+  width: 100%;
+  object-fit: cover;
+ }
+
+ .card-content {
+  flex: 2;
+  padding: 2em;
+ }
+
+  .hero-content {
+    background-color:#3F606F;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  section div {
+    background-color:#3F606F;
+  }
+  footer p {
+    color:white;
+  }
+  .title {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color:#3F606F;
+    color: white;
+  }
